@@ -43,6 +43,7 @@
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 
  ## program
+ 
 ```
 import random
 class MedicinePrescribingAgent:
@@ -84,6 +85,7 @@ class MedicinePrescribingAgent:
         print("\nFinal Performance:", self.performance)
 agent = MedicinePrescribingAgent()
 agent.run()
+
 ```
 
 # output
